@@ -4,6 +4,9 @@ import hmac
 import time
 import os
 from operator import itemgetter
+from dotenv import load_dotenv
+
+load_dotenv()
 
 SECRETKEY = os.environ["SECRETKEY"]
 URL =  os.environ["API_URL"]
