@@ -9,7 +9,6 @@ SECRETKEY = os.environ["SECRETKEY"]
 URL =  os.environ["API_URL"]
 APIKEY = os.environ["APIKEY"]
 HEADERS = {'X-MBX-APIKEY': APIKEY}
-print(APIKEY, SECRETKEY, "hsdfkjsdfkljasl")
 
 def _order_params(data):
     """Convert params to list with signature as last element
